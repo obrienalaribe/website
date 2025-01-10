@@ -21,7 +21,6 @@ jobs:
       - name: Build and Export
         run: |
           npm run build
-          npm run export
 
       - name: Deploy to S3
         uses: aws-actions/configure-aws-credentials@v2
