@@ -1,6 +1,6 @@
 'use client'
 
-import { Github, Linkedin, Mail, Music, Server, Code, Database, Cloud, FileDown, PiggyBank, Binoculars, Search } from 'lucide-react'
+import { Github, Linkedin, Mail, Server, Code, Database, Cloud, FileDown, PiggyBank, Search } from 'lucide-react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
@@ -135,7 +135,7 @@ export default function Portfolio() {
         </main>
 
         <footer className="mt-20 text-center text-gray-600">
-          <p>&copy; 2025 O'Brien Alaribe. All rights reserved.</p>
+          <p>&copy; 2025 OBrien Alaribe. All rights reserved.</p>
         </footer>
       </motion.div>
     </div>
