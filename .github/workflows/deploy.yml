@@ -8,8 +8,7 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    working-dir: my-next-app
-
+    working-directory: my-next-app
     steps:
       - name: Checkout Code
         uses: actions/checkout@v3
